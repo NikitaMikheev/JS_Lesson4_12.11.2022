@@ -1,5 +1,5 @@
 /* ФУНКЦИИ */
-
+/*
 let userOne = {
     role: "admin",
     firstName: "Никита"
@@ -29,3 +29,32 @@ if (result) {
 
 else {
     showError(userOne) }
+
+*/
+
+/* ЗАДАЧА 1 */
+
+let userName = "";
+
+function checkUser(name) {
+    if (name) {
+        console.log(`Добро пожаловать, ${name}!`);;
+    }
+    else {
+    console.log(`Добро пожаловать, гость!`); }
+}
+
+checkUser(userName);
+
+
+/* ЗАДАЧА 2 */
+
+let firstValue = 25;
+let degree = 3;
+
+function exponentiation(firstValue, degree) {
+    return firstValue**degree;
+}
+
+let result = exponentiation(firstValue, degree)
+console.log(result);
